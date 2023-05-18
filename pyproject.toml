@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "python-webscrapper"
+version = "0.1.0"
+description = "python basic lecture by nomadcoders.co"
+authors = ["gkswk117 <gkswk117@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "python_webscrapper"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.1"
+requests = "^2.30.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
